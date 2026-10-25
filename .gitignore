@@ -1,0 +1,36 @@
+# 编译产物
+/shell
+/shell.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试产物
+*.test
+*.out
+coverage.*
+*.prof
+
+# Go 工作区
+go.work
+go.work.sum
+
+# 依赖目录（本项目使用 go.sum 管理，不提交 vendor）
+vendor/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 项目私有说明（本地 Agent 指令，不进入仓库）
+AGENTS.md
